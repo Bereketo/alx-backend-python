@@ -19,9 +19,9 @@
   * Your code should use the pycodestyle style (version 2.5.)
   * All your files must be executable
   * The length of your files will be tested using wc
-  * All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-  * All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-  * All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(        __import__("my_module").MyClass.my_function.__doc__)')
+  * All your modules should have a documentation (python3 -c 'print(__import__("my'_'module").__doc__)')
+  * All your classes should have a documentation (python3 -c 'print(__import__("my'_'module").MyClass.__doc__)')
+  * All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my'_'module").my_function.__doc__)' and python3 -c 'print(        __import__("my'_'module").MyClass.my_function.__doc__)')
   * A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
 # Tasks
@@ -32,7 +32,7 @@
   # 2. Basic annotations - floor
     * Write a type-annotated function floor which takes a float n as argument and returns the floor of the float.
   # 3. Basic annotations - to string
-    * Write a type-annotated function to_str that takes a float n as argument and returns the string representation of the float.
+    * Write a type-annotated function to'_'str that takes a float n as argument and returns the string representation of the float.
   # 4. Define variables
     * Define and annotate the following variables with the specified values:
   # 5. Complex types - list of floats
