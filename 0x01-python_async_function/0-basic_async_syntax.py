@@ -1,4 +1,4 @@
-#!/usr/bin/evn python3
+#!/usr/bin/env python3
 """Basic async function """
 import asyncio
 import random
@@ -6,6 +6,6 @@ import random
 
 async def wait_random(max_delay: int = 10) -> float:
     """Async function which waits random time and returns float """
-    wait: float = random.uniform(0.0, float(max_delay))
+    wait = random.uniform(0, max_delay)
     await asyncio.sleep(wait)
     return wait
